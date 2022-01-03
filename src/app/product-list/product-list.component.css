@@ -1,0 +1,43 @@
+h3 {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.right {
+  order: 1;
+  text-align: right;
+  padding-left: 1rem;
+}
+
+.left {
+  order: 0;
+}
+
+.product-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+
+.button-container {
+  gap: 0 1rem;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
